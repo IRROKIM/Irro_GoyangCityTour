@@ -458,6 +458,14 @@ hr {
 	height: auto */
 }
 
+.img-fluid2 {
+	/*도희*/
+    max-width: 100%;
+	height:300px;
+	width:445px;
+	/* 끝 */
+}
+
 /* 도희 */
 .img-align{
 	display: flex;
@@ -570,6 +578,18 @@ pre code {
 	margin-right: -15px;
 	margin-left: -15px
 }
+/* 도희 */
+.row2 {
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-evenly;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px
+}
+/* 끝 */
 
 .no-gutters {
 	margin-right: 0;

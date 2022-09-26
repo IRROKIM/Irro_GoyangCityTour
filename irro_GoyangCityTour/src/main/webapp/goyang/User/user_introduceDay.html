@@ -36,6 +36,9 @@
 <title>고양 시티투어</title>
 <style type="text/css">
 </style>
+<script type="text/javascript" 
+src="//dapi.kakao.com/v2/maps/sdk.js?appkey=cb6c9b091a20dd2a54f70d5957be761f  &libraries=services,clusterer"></script>
+
 </head>
 
 <body>
@@ -122,7 +125,7 @@
 
 	<!-- 대제목 -->
 	<div class="container">
-		<img src="../images/bullet_Tues_sub_style.png" alt>
+		<img src="../images/bullet_Tues_sub_style_blue.png" alt="image">
 		<p
 			style="font-size: 20px; font-weight: bold; padding-top: 20px; margin-bottom: 0;">화요나들이
 			(벽제)</p>
@@ -139,7 +142,7 @@
 
 	<!-- 소제목 -->
 	<div class="container">
-		<img src="../images/bullet_Tues_sub_style.png" alt>
+		<img src="../images/bullet_Tues_sub_style_blue.png" alt="image">
 		<p>
 			<span style="color: #ba202a; font-weight: bold;">화요나들이</span><span>&nbsp;코스안내</span>
 		</p>
@@ -162,8 +165,9 @@
 						보기</a>
 				</p>
 			</div>
-			<div class="map_frame"
-				style="background: url(../images/맵.JPG) no-repeat center; background-size: cover;">
+			<div class="map_frame">
+				<!-- style="background: url(../images/맵.JPG) no-repeat center; background-size: cover;"> -->
+				<div id="map" style="width:830px; height: 500px;" ></div>
 			</div>
 			<div>
 				<p style="color: #f00; font-weight: bold; margin: 30px 0;">(관광지를
@@ -174,16 +178,16 @@
 					<tbody align="center">
 						<tr>
 							<td rowspan="3"
-								style="width: 80px; height: 40px; border-radius: 50%; background: #f2cb61; font-size: 20px; font-weight: bold; text-align: center;">화</td>
-							<td style="color: #f2cb61; font-weight: bold;">10:00</td>
-							<td style="color: #f2cb61; font-weight: bold;">11:00 ~ 12:00</td>
-							<td style="color: #f2cb61; font-weight: bold;">12:00 ~ 13:00</td>
-							<td style="color: #f2cb61; font-weight: bold;">13:00 ~ 14:00</td>
-							<td style="color: #f2cb61; font-weight: bold;">14:30 ~ 15:30</td>
-							<td style="color: #f2cb61; font-weight: bold;">16:00</td>
+								style="width: 80px; height: 40px; border-radius: 50%; background: #d3e0ea; font-size: 20px; font-weight: bold; text-align: center;">화</td>
+							<td style="color: #7895b2; font-weight: bold;">10:00</td>
+							<td style="color: #7895b2; font-weight: bold;">11:00 ~ 12:00</td>
+							<td style="color:#7895b2; font-weight: bold;">12:00 ~ 13:00</td>
+							<td style="color: #7895b2; font-weight: bold;">13:00 ~ 14:00</td>
+							<td style="color: #7895b2; font-weight: bold;">14:30 ~ 15:30</td>
+							<td style="color: #7895b2; font-weight: bold;">16:00</td>
 						</tr>
 						<tr
-							style="border-bottom: 1px solid #444; color: #f2cb61; font-weight: bold;">
+							style="border-bottom: 1px solid #444; color: #7895b2; font-weight: bold;">
 							<td>1</td>
 							<td>2</td>
 							<td>3</td>
@@ -340,7 +344,8 @@
 			<span class="sr-only">Loading...</span>
 		</div>
 	</div>
-
+	
+	
 	<script src="../js/jquery-3.4.1.min.js"></script>
 	<script src="../js/popper.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>

@@ -851,6 +851,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 	border-radius: 200px;
 	height: 300px;
 	margin-bottom: -200px;
+	/* 도희 */
+	bottom: 20px;
+	/* 끝 */
 }
 
 @media ( max-width : 991.98px) {
@@ -875,7 +878,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .untree_co-section {
-	padding: 50px 0;
+	padding: 30px 0;
 	/* 도희 */
 	display: block;
 	/* 끝 */
@@ -988,6 +991,18 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 	position: relative;
 	padding-bottom: 20px;
 	display: inline-block;
+}
+/* 끝 */
+
+/* 도희 */
+.section-sub-title:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	background: #bbbbbb;
+	width: 1110px;
 }
 /* 끝 */
 
@@ -1168,12 +1183,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .feature-1 {
-	padding: 30px;
+	padding: 50px;
 	background: rgba(26, 55, 77, 0.05);
 	border-radius: 20px;
 	min-height: calc(50% - 15px);
 	top: 0;
 	margin-bottom: 30px !important;
+	/* 도희  */
+	/* padding: 30px; */
+	/* 끝 */
 }
 
 @media ( max-width : 991.98px) {
